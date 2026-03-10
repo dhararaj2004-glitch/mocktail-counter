@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanda Dil Garam Jigar | Premium Mocktails</title>
+    <style>
+        :root {
+            --cola: #3d1b11;
+            --blue: #00d2ff;
+            --pulse: #a2d24a;
+            --text: #ffffff;
+        }
+        body { font-family: 'Poppins', sans-serif; margin: 0; background: #0f172a; color: var(--text); line-height: 1.6; }
+        header { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80'); 
+                 background-size: cover; text-align: center; padding: 100px 20px; border-bottom: 5px solid var(--pulse); }
+        h1 { font-size: 3.5rem; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
+        .tagline { font-size: 1.2rem; color: var(--blue); }
+        
+        .menu-section { padding: 50px 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: auto; }
+        
+        .card { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border-radius: 20px; padding: 30px; text-align: center; transition: 0.3s; border: 1px solid rgba(255,255,255,0.1); }
+        .card:hover { transform: translateY(-10px); background: rgba(255, 255, 255, 0.1); }
+        
+        .price { font-weight: bold; font-size: 1.5rem; display: block; margin: 15px 0; }
+        .btn { display: inline-block; padding: 10px 25px; background: var(--blue); color: #000; text-decoration: none; border-radius: 50px; font-weight: 700; margin-top: 10px; }
+
+        /* Specific Colors for Drinks */
+        .cola-card { border-top: 5px solid var(--cola); }
+        .blue-card { border-top: 5px solid var(--blue); }
+        .pulse-card { border-top: 5px solid var(--pulse); }
+        
+        footer { text-align: center; padding: 40px; background: #000; font-size: 0.9rem; color: #666; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Thanda Dil Garam Jigar</h1>
+    <p class="tagline">Fizz. Spice. Everything Nice.</p>
+</header>
+
+<section class="menu-section">
+    <div class="card cola-card">
+        <h2>🥤 Masala Cola</h2>
+        <p>The ultimate Desi refresher. A spicy blend of roasted Jeera, Kala Namak, and chilled Cola with a lime twist.</p>
+        <span class="price">₹40</span>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="card blue-card">
+        <h2>🌊 Blue Lagoon</h2>
+        <p>A tropical escape in a glass. Refreshing Blue Curaçao mixed with fizzy Sprite and tangy lemon juice.</p>
+        <span class="price">₹50</span>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="card pulse-card">
+        <h2>🟢 Pulse Candy Mocktail</h2>
+        <p>The nostalgia hit! A unique blend featuring the tangy, salty "burst" of Pulse candy in a chilled mojito style.</p>
+        <span class="price">₹45</span>
+        <a href="#" class="btn" style="background: var(--pulse);">Order Now</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 The Zing Counter | Visit us near the college main gate!</p>
+</footer>
+
+</body>
+</html>
